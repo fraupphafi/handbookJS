@@ -1,7 +1,7 @@
-## JSON
+# JSON
 
 
-### `JSON.parse` – читает объекты из строки в формате JSON.
+## `JSON.parse` – читает объекты из строки в формате JSON.
 
 ```
 let user = '{ "name": "Вася", "age": 35, "isAdmin": false, "friends": [0,1,2,3] }';
@@ -10,7 +10,7 @@ user = JSON.parse(user);
 
 alert( user.friends[1] ); // 1
 ```
-#### Умный разбор JSON.parse(str, reviver)
+### Умный разбор JSON.parse(str, reviver)
 Параметр reviver является функцией function(key, value).
 
 ```
@@ -27,7 +27,7 @@ alert( event.date.getDate() ); // теперь сработает!
 
 
 
-### `JSON.stringify(value, replacer, space)` – превращает объекты в строку в формате JSON.
+## `JSON.stringify(value, replacer, space)` – превращает объекты в строку в формате JSON.
 
 ```
 var user = {

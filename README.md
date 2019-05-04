@@ -1,8 +1,8 @@
 # handbookJS
 
-- String
-- Number
-- Array
-- Object
+- [String](./string.md)
+- [Number](./number.md)
+- [Array](./array.md)
+- [Object](./object.md)
 
-- JSON
+- [JSON](./json.md)

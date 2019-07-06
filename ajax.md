@@ -31,27 +31,27 @@ xhr.onreadystatechange = function() {
 
 Методы запроса:
 `.open(method, URL, async, user, password)` - конфигурация запроса. Метод(POST GET); адрес(любой протокол, но ограничение безопасности Same Origin Policy); асинхронность (false блокирует работу страницы); user, password – логин и пароль для HTTP-авторизации, если нужны.
-`.send(body)` - отправка. Body для POST запроса
-`.abort()` -
-`.setRequestHeader(name, value)` - устанавливает заголовок
-`.getResponseHeader(name)` - читает заголовок
-`.getAllResponseHeaders()` - возвращает все заголовки ответа
+- `.send(body)` - отправка. Body для POST запроса
+- `.abort()` -
+- `.setRequestHeader(name, value)` - устанавливает заголовок
+- `.getResponseHeader(name)` - читает заголовок
+- `.getAllResponseHeaders()` - возвращает все заголовки ответа
 
 Свойства XMLHttpRequest:
-`timeout` - задает макс продолжительность асинхронного запроса, после будет сгенерировано событие `ontimeout`
-`responseText` - текст ответа сервера
-`responseXML` - если сервер вернул XML
-`status`- код статуса ответа сервера (200, 404, 403, 0)
-`statusText` - текстовое представление ответа (OK, Not Found, Forbidden)
+- `timeout` - задает макс продолжительность асинхронного запроса, после будет сгенерировано событие `ontimeout`
+- `responseText` - текст ответа сервера
+- `responseXML` - если сервер вернул XML
+- `status`- код статуса ответа сервера (200, 404, 403, 0)
+- `statusText` - текстовое представление ответа (OK, Not Found, Forbidden)
 
 События:
-`onreadystatechange` - происходит несколько раз в процессе отсылки и получения ответа  
-`onerror` - произошла ошибка
-`onload` - запрос УСПЕШНО завершен
-`onprogress` - браузер получил очередной пакет данных
-`onabort` - запрос отменен
-`onloadstart` - запрос начат
-`onloadend` - запрос завершен
+- `onreadystatechange` - происходит несколько раз в процессе отсылки и получения ответа  
+- `onerror` - произошла ошибка
+- `onload` - запрос УСПЕШНО завершен
+- `onprogress` - браузер получил очередной пакет данных
+- `onabort` - запрос отменен
+- `onloadstart` - запрос начат
+- `onloadend` - запрос завершен
 
 `readyState` - состояние запроса (0 - unset, 1 - open, 2 - headers_receive, 3 - loading, 4 - done);
 
@@ -64,9 +64,9 @@ Access-Control-Allow-Origin
 ## fetch ##
 Улучшенный интерфейс для осуществления запросов к серверу на основе промисов
 
-`let promise = fetch(url[, options]);`
-`url` – URL, на который сделать запрос,
-`options` – необязательный объект с настройками запроса.
+- `let promise = fetch(url[, options]);`
+- `url` – URL, на который сделать запрос,
+- `options` – необязательный объект с настройками запроса.
 
 Свойства options:
 - `method` – метод запроса,

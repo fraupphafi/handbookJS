@@ -67,3 +67,7 @@ Promise.resolve(window.location) // начать с этого значения
 
 ## Promise.reject(error) ##
 Аналогично Promise.reject(error) создаёт уже выполнившийся промис, но с ошибкой error.
+
+
+Заметки:
+- для перебора элементов в массиве в промисах `for of someArray`

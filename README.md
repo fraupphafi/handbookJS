@@ -1,4 +1,4 @@
-# handbookJS(https://fraupphafi.github.io/handbookJS/)
+# [handbookJS](https://fraupphafi.github.io/handbookJS/)
 
 - [String](./string.md)
 - [Number](./number.md)

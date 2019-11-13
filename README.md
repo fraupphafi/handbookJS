@@ -5,3 +5,8 @@
 - [Array](./array.md)
 - [Object](./object.md)
 - [JSON](./json.md)
+- [ajax](./ajax.md)
+- [Promise](./promise.md)
+- [Async/Await](./async_await.md)
+
+
